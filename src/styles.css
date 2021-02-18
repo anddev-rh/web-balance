@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.web-balance {
+  @apply font-lato mx-auto rounded-10px shadow-base mt-96 h-220px w-410px bg-white-base;
+}
+
+.body-large {
+  @apply p-6 text-gray-100 text-lg font-normal;
+}
+
+.headers-small {
+  @apply ml-6 mb-6 mt-4 text-gray-100 text-2xl font-bold;
+}
+
+.large-button {
+  @apply ml-6 w-180px h-10 text-base font-bold rounded-25px text-white-base bg-purple-100;
+}
