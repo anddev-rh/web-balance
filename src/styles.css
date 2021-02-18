@@ -15,5 +15,5 @@
 }
 
 .large-button {
-  @apply ml-6 w-180px h-10 text-base font-bold rounded-25px text-white-base bg-purple-100;
+  @apply ml-6 w-180px h-10 text-base font-bold rounded-25px text-white-base bg-purple-100 focus:outline-none;
 }
